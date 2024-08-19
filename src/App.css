@@ -1,0 +1,73 @@
+/****************** HEADER ******************/
+.header {
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+/****************** MAIN ******************/
+.main {
+  height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.job {
+  cursor: pointer;
+  border: #000 solid 5px;
+  width: 180px;
+  height: 190px;
+  padding: 5px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.job h2 {
+  font-size: 1.4em;
+}
+
+.job p {
+  font-size: .9em;
+  margin-bottom: 5px;
+}
+
+.item1, .item6 {
+  border-color: red;
+}
+
+.item2, .item7 {
+  border-color: green
+}
+
+.item3, .item8 {
+  border-color: yellow;
+}
+
+.item4, .item9 {
+  border-color: deepskyblue;
+}
+
+.item5 {
+  border-color: rosybrown;
+}
+/****************** FOOTER ******************/
+.footer {
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+}
